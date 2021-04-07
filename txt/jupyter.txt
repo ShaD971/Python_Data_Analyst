@@ -1,0 +1,22 @@
+//lancer jupyter (ancien TP peut etre obsolet)
+sudo docker run --user root --rm -p 8888:8888 -v /home/fitec/notebooks:/home/jovyan -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS="-R" jupyter/all-spark-notebook
+
+//nouveau docker pour jupyter(Nouveau TP) 
+sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+
+sudo docker ps -a// status de docker
+
+//suprimer un container
+sudo docker rm "numero du container"
+
+Lancer jupyter
+sudo docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/ubuntu/cassandra_abdata/ jupyter/scipy-notebook:2c80cf3537ca
+
+Cronjob pour automatisé l'injestion de données
+https://www.linuxtricks.fr/wiki/cron-et-crontab-le-planificateur-de-taches
+
+Git hub du prof pour les données
+https://github.com/msellamiTN/
+
+//
+sudo docker build --tag msellami/elt_cassandra .

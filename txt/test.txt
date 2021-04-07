@@ -1,0 +1,14 @@
+test d'ecriture dans un fichiertest d'ecriture dans un fichiertest d'ecriture dans un fichiertest d'ecriture dans un fichiertest d'ecriture dans un fichier 
+c'est la ligne 8 
+c'est la ligne 9 
+c'est la ligne 10 
+c'est la ligne 11 
+c'est la ligne 12 
+c'est la ligne 13 
+c'est la ligne 14 
+c'est la ligne 15 
+c'est la ligne 16 
+c'est la ligne 17 
+c'est la ligne 18 
+c'est la ligne 19 
+c'est la ligne 20 
