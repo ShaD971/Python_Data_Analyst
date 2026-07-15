@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=8.2,<9.0
+ruff>=0.5,<1.0
+black>=24.4,<26.0
+mypy>=1.10,<2.0
+nbqa>=1.8,<2.0
+nbconvert>=7.16,<8.0
